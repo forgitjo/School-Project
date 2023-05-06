@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Bu qismda Navbar design qilindi */
+.navbar{
+    width: 100%;
+    height: 143px;
+    background:#5855E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    
+    
+}
+
+.navbar img{
+    width: 156px;
+    height: 111px;
+  
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 0px 30px;
+}
+.link1:hover #a1:after{
+    content: "]";
+
+}
+
+.link1:hover #a1::before{
+    content: "[";
+
+}
+
+.link2:hover #a2::after{
+    content: "]";
+
+}
+
+.link2:hover #a2::before{
+    content: "[";
+
+}
+
+.link3:hover #a3:after{
+    content: "]";
+
+}
+
+.link3:hover #a3::before{
+    content: "[";
+
+}
+
+.link4:hover #a4:after{
+    content: "]";
+
+}
+
+.link4:hover #a4::before{
+    content: "[";
+
+}
+
+
+
+
+.links a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.navbar button{
+    width: 267.14px;
+    height: 50px;
+    background: #f5e8e8;
+    border-radius: 5px;
+    font-size: 24px;
+
+
+}
+
+
+
+
+/* Bu qism asosiy body ning part1 qismi */
+
+.part1{
+    display:flex;
+    justify-content:space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 143px;
+   
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+
+.text{
+   
+    font-size: 31px;
+    display: flex;
+    width: 44vw;
+}
+
+.texts p{
+    font-size: 19px;
+    width: 30vw;
+}
+
+.btn{
+    width: 220px;
+    height: 58px;
+    border-radius: 10px;
+    border: 3px solid #6347EB;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.first{
+    background: #6347EB;
+    color: #FFFFFF;
+}
+
+.second{
+    background: #FFFFFF;
+    color:black;
+    margin-left: 40px;
+}
+
+.picture{
+    margin-top: 20px;
+    margin-left: 13vw;
+}
+
+
+/* Bu qism asosiy body ning part2 qismi */
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 22vh;
+
+}
+
+.schoolimg{
+    width: 40%;
+}
+
+.part2text{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.part2text h1{
+    font-weight: 700;
+    font-size: 43px;
+}
+
+.part2text p{
+    font-weight: 400;
+    font-size: 27px;
+}
+
+/* Bu qism asosiy body ning part3 qismi */
+
+.part3{
+    background: #5855E7;
+    width: 100%;
+    min-height: 30vh;
+    text-align: center;
+    margin: 200px 0px;
+}
+
+.title{
+   text-align: center;
+   padding: 60px 0px;
+   font-weight: 700;
+   font-size: 40px;
+   color: #FFFFFF;
+}
+
+
+.boxes{
+    gap: 50px;
+}
+
+.up{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-evenly;
+    
+
+}
+
+.down{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content:space-evenly;
+}
+
+.box{
+    color: #FFFFFF;
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+
+.box img{
+    border-radius: 50%;
+    border: 8px solid #FFFFFF;
+}
+
+.box h1{
+    font-weight: 700;
+    font-size: 29px;
+    
+}
+
+.box p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/* Bu qism asosiy body ning part4 qismi */
+
+.part4title{
+    display:grid;
+    grid-template-rows: 30% 30%;
+    justify-content: center;
+    
+}
+
+.title2{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 119px;
+    color: #EEEEEE;
+   
+
+
+}
+
+.title3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    margin-top: 17px;
+    
+}
+
+
+/* .part4{
+} */
+
+.upper{
+    display: grid;
+    grid-template-columns:320px 320px 320px;
+    gap: 20px;
+    justify-content:space-evenly;
+    
+} 
+
+
+.cards{
+    background-color: #5855E7;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 22px 2px;
+    box-shadow: 0px 0px 35px rgba(51, 51, 51, 0.25);
+    border-radius: 15px;
+
+}
+
+.cards p{
+    width: 300px;
+
+}
+
+.cards img{
+    width: 280px;
+    border-radius: 7px;
+
+}
+
+.cards p{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.cards button{
+    padding: 6px 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6347EB;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.downer{
+    display: grid;
+    grid-template-columns:320px 320px;
+    gap: 20px;
+    justify-content:space-evenly;
+    margin: 80px 0px;
+ 
+    
+
+}
+
+/* Bu qism asosiy body ning part5 qismi */
+
+.title5{
+    display:grid;
+    grid-template-rows: 30% 30%;
+    justify-content:center;
+    
+
+}
+
+.title5 h1{
+   font-weight: 700;
+   font-size: 96px;
+   color: #EEEEEE;
+  
+
+
+}
+
+.title5 h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-left: 240px;
+    margin-top: 12px;
+  
+
+}
+
+.part5{
+    width: 86vw;
+    min-height: 600px;
+    margin: auto;
+    background-color: #5855E7;
+    color: #FFFFFF;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px 100px; 
+    margin-bottom: 100px;
+    
+  
+}
+
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    margin-left: 2vw;
+   
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    width: 500px;
+    margin-left:15vw;
+   
+    
+}
+
+
+.section1 h1{
+    padding-bottom: 10px;
+}
+
+.section2 h1{
+    font-weight: 600;
+    font-size: 40px;
+  
+
+}
+.section1 h2{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.section2 p{
+    font-weight: 500;
+    font-size: 19px;
+    width: 350px;
+
+
+}
+
+.section2 input{
+    font-size: 20px;
+    width:25vw;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);   
+    border-radius: 5px;
+    margin: 15px 0px;
+    border: none;
+}
+
+.section2 textarea{
+    font-size: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    width:25vw;
+
+}
+
+.section2 button{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 20px;
+    width: 14vw;
+    margin-left: 11vw;
+}
+
+/* Bu qism button qismi */
+
+.button_1 button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(68, 179, 92);
+    border-radius: 50%;
+    background-color:#5855E7;
+    position:fixed;
+    bottom:23vh;
+    right:2vw;
+    color: #f5e8e8;
+}
+
+.button_1 button:hover{
+    box-shadow: 2px 2px 15px greenyellow;
+}
+
+
+/* Bu qism asosiy body ning part6 qismi */
+
+.part6{
+    height: 187px;
+    width: 100%;
+    margin: auto;
+    background-color: #5855E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+
+.contacts{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    color: #FFFFFF;
+    font-size: 24px;
+    align-items: center;
+}
+
+
+.contacts a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+ 
+}
+
+.contacts div{
+    align-items: center;
+}
+
+.icons a{
+    padding: 10px;
+
+}
